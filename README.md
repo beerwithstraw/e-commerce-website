@@ -1,1 +1,1 @@
-# e-commerce-website
+# E-commerce Website using ReactJS and Stripe
