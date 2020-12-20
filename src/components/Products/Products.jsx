@@ -7,7 +7,6 @@ import useStyles from './styles'
 const products = [
     {id: 1, name: 'Shoes', description: 'Running Shoes', price: '$50', image: 'https://image.cnbcfm.com/api/v1/image/105680013-1547583426762nike1.jpg?v=1547583682'},
     {id: 2, name: 'Airpods', description: 'Apple Airpods Pro', price: '$250', image: 'https://slickdeals.net/blog/wp-content/uploads/2020/01/19-airpods-pro-daniel-9.jpg'},
-    {id: 3, name: 'Airpods', description: 'Apple Airpods Pro', price: '$250', image: 'https://slickdeals.net/blog/wp-content/uploads/2020/01/19-airpods-pro-daniel-9.jpg'},
 
 
 ];
