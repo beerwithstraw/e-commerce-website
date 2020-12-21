@@ -1,11 +1,17 @@
 import React from 'react'
+import { Typography, Button, Card, CardActions, CardContent, CardMedia } from '@material-ui/core';
+
+import useStyles from './styles'
 
 const CartItem = () => {
+    const classes = useStyles();
+
     return (
-        <div>
+        <Card>
+            <CardMedia image={item.media.source} alt={item.name} className={classes.media} />
             
-        </div>
+        </Card>
     )
 }
 
-export default CartItem
+export default CartItem;
