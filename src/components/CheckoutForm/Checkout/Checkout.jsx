@@ -18,8 +18,7 @@ const Checkout = () => {
     )
 
     const Form = () => activeStep === 0
-        ? <AddressForm /> 
-        : <PaymentForm />
+        ? <AddressForm /> : <PaymentForm />
 
     return (
         <>
@@ -35,7 +34,7 @@ const Checkout = () => {
                         ))}
 
                     </Stepper>
-                    { activeStep === steps.length ? <Confirmation /> : Form }
+                    { activeStep === steps.length ? <Confirmation /> : <Form /> }
                 </Paper>
               
             </main>  

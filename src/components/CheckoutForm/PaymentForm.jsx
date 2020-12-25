@@ -5,7 +5,7 @@ const PaymentForm = () => {
         <div>
             PaymentForm
         </div>
-    );
+    )
 }
 
-export default PaymentForm;
+export default PaymentForm
