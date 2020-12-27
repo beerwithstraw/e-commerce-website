@@ -8,6 +8,8 @@ const PaymentForm = ( { checkoutToken }) => {
     return (
         <>
             <Review checkoutToken={checkoutToken}/>
+            <Divider />
+            <Typography variant="h6"></Typography>
         </>
     )
 }
