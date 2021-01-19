@@ -1,3 +1,4 @@
-# E-commerce Website using ReactJS and Stripe
+# E-commerce Website 
+## Using ReactJS, CommerceJS and Stripe
 
 ## [Live Project](https://bws-ecommerce-store.netlify.app/)
